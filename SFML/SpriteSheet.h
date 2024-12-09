@@ -1,6 +1,10 @@
 #pragma once
 
+#pragma region External Dependencies
+
 #include <SFML/Graphics.hpp>
+
+#pragma endregion
 
 class SpriteSheet : public sf::Drawable, public sf::Transformable {
 private:

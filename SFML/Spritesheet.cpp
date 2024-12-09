@@ -1,6 +1,10 @@
 #include "Spritesheet.h"
 
+#pragma region External Dependencies
+
 #include <string>
+
+#pragma endregion
 
 SpriteSheet::SpriteSheet(std::string path, int columns, int rows) {
 	this->current = 0;
